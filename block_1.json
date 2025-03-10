@@ -1,0 +1,10 @@
+{
+    "index": 1,
+    "timestamp": 1741606649.1652253,
+    "data": "Master Boyan submits the first Knowledge Contribution",
+    "previous_hash": "dfc7fcbaf70169f8b680bbf83eb33cad7217e4a37d08e48c385149ba0304f93c",
+    "merkle_root": "8c11dfc2994ea984ebd016c703ed52e00b250393477c7083a9c1a5b02a8dc098",
+    "validator": "Master Boyan",
+    "proof": "0x2",
+    "hash": "6c47423c64cec8d253c7f2fe30691f99c556c642e17faba3d2c6b0167f57427d"
+}

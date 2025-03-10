@@ -1,65 +1,10 @@
 {
-  "chainId": 2025,
-  "chainName": "KnowledgeChain",
-  "blockNumber": 0,
-  "timestamp": "2025-03-06T22:03:50Z",
-  "previousHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-  "merkleRoot": "0x2c1f7d9e8a3b45f1d6e7c890ab12cd34ef56fa7890bcde1234567890fedcba98",
-  "immutableLaws": [
-    {
-      "id": 1,
-      "title": "Fundamental Law",
-      "content": "All knowledge entries are validated in binary terms (true or false) only, eliminating ambiguity.",
-      "contentHash": "0x91af3bcd27e4098c5d6e8f10a2b3c4d5e6f7a8b9c0d1e2f34f8a16bc2379d5e0"
-    },
-    {
-      "id": 2,
-      "title": "Recognition Mechanism",
-      "content": "Knowledge is validated and stored through a decentralized recognition mechanism (e.g., consensus or an oracle) which confirms the truth of information before it is added to the ledger.",
-      "contentHash": "0xa1b2c3d4e5f6071819af28be37cd46dcf1e2d3c4b5a697889ca8b7d6e5f4c3b2"
-    },
-    {
-      "id": 3,
-      "title": "Growth Rule",
-      "content": "The ledger grows by appending new verified knowledge blocks in a linear, tamper-proof sequence, preventing any modification to prior entries.",
-      "contentHash": "0x2fd55c2171239b4c3e7dc8568cdd63ce85534e96a4c8800d57653cd184e5dcda"
-    },
-    {
-      "id": 4,
-      "title": "Self-Replication Rule",
-      "content": "Every node holds a full copy of the knowledge ledger, making it self-replicating across the network. Once recorded, knowledge is immutable (cannot be altered) yet accessible and distributable to all participants.",
-      "contentHash": "0x5f3c445aa45926f1c5f6ee3b348c759df76286e10475d97e595187cbbe1d9b2a"
-    },
-    {
-      "id": 5,
-      "title": "Validation Principle",
-      "content": "When knowledge is verified as true and added to the ledger, the contributor is rewarded with newly minted KBC tokens, incentivizing truthful contributions and validations.",
-      "contentHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    }
-  ],
-  "blockHash": "0xb0e342c4fc98141cfb9ac8f46f9924b9ae27e4419b644c9395a41b99527855b8",
-  "notes": "Genesis block of KBC – defines fundamental knowledge validation rules and initial chain parameters.",
-  "config": {
-    "consensus": "ProofOfKnowledge",
-    "validators": [
-      "0x1234567890abcdef1234567890abcdef12345678",
-      "0xabcdef1234567890abcdef1234567890abcdef12",
-      "0x7890abcdef1234567890abcdef1234567890abcd"
-    ],
-    "blockPeriod": 15,
-    "gasLimit": "0x7A1200"
-  },
-  "alloc": {
-    "0x0000000000000000000000000000000000000000": {
-      "balance": "0x0"
-    },
-    "0x1234567890abcdef1234567890abcdef12345678": {
-      "balance": "0x1"
-    }
-  },
-  "difficulty": "0x1",
-  "nonce": "0x0000000000000042",
-  "extraData": "0x4b4243",
-  "stateRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
-  "transactionsRoot": "0x0000000000000000000000000000000000000000000000000000000000000000"
+    "index": 0,
+    "timestamp": 1741606020.231313,
+    "data": "Genesis Block - KBC Exists",
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "merkle_root": "GENESIS",
+    "validator": "KBC_Oracle",
+    "proof": "0x1",
+    "hash": "088955b5e16d902f6ef6252829f1b38d00682bc75acaa439704200cc2c097f4d"
 }
