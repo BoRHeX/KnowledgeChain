@@ -21,6 +21,21 @@ Unlike traditional blockchains that rely on monetary transactions, **KnowledgeCh
 4. **KnowledgeChain updates globally** – Once added, knowledge can’t be altered.  
 5. **Users accumulate KBC** – The more you contribute, the more you grow.  
 
+
+### Proof of Knowledge
+- Each block records `knowledge_id`, `author_id`, and optional `evidence`.
+- Validators sign blocks with a score. Once a block has at least **3** signatures (1 AI and 2 humans) it becomes validated.
+- The `kbc_score` field stores the average of all validation scores and is awarded to the author.
+
+### Validation & Scoring
+Validators review pending blocks via the CLI and give a score between `0` and `1`. When a block is validated, the author's total KBC increases by the block score. User balances are tracked in `users.json`.
+
+### CLI Usage
+Run `python knowledgechain.py` and choose:
+1. Submit knowledge
+2. Validate knowledge
+3. View the chain
+4. View user stats
 ---
 
 ## 🔗 **The Genesis Block - The Foundation of Truth**  
